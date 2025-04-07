@@ -1,0 +1,163 @@
+/* Base Styles */
+.contact-container {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #e0e0e0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background: #1a1a1a; /* Dark background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(106, 13, 173, 0.3); /* Violet shadow */
+  overflow: hidden;
+  border: 1px solid #6a0dad; /* Violet border */
+}
+
+.contact-info, .contact-form {
+  flex: 1;
+  min-width: 300px;
+  padding: 30px;
+}
+
+.contact-info {
+  background: #121212; /* Slightly darker than main background */
+  color: #e0e0e0;
+  border-right: 1px solid #6a0dad; /* Violet separator */
+  text-decoration: none;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #bb86fc; /* Light violet */
+}
+
+.contact-info p {
+  margin-bottom: 30px;
+  color: #b0b0b0;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-item i {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #bb86fc; /* Light violet */
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #bb86fc; /* Light violet */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #bb86fc; /* Light violet */
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  background: #2d2d2d; /* Dark input background */
+  border: 1px solid #6a0dad; /* Violet border */
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s;
+  color: #e0e0e0;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #bb86fc; /* Light violet on focus */
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(187, 134, 252, 0.2); /* Glow effect */
+}
+
+.submit-btn {
+  background: #6a0dad; /* Violet button */
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+
+.submit-btn:hover {
+  background: #7b1fa2; /* Lighter violet on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(106, 13, 173, 0.3);
+}
+
+.success-message {
+  background: rgba(106, 13, 173, 0.2); /* Violet background with transparency */
+  color: #bb86fc; /* Light violet text */
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #6a0dad;
+}
+
+/* Placeholder color */
+::placeholder {
+  color: #888;
+  opacity: 1;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form {
+    padding: 20px;
+  }
+
+  .contact-info {
+    border-right: none;
+    border-bottom: 1px solid #6a0dad; /* Violet separator for mobile */
+  }
+}
+
+/* Font Awesome Icons (if not using the library) */
+.fas {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  color: #bb86fc; /* Light violet for icons */
+}
+a{
+  text-decoration: none;
+  font-size:25px;
+}
+.social-icons a {
+  margin: 0 10px;
+  color: ;/* Default color */
+
+}
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn blue */
+}

@@ -1,0 +1,58 @@
+.academics-section {
+  padding: 5rem 2rem;
+  background-color: black;
+}
+
+.academics-container {
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+.academic-card {
+  background-color: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  padding: 10px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #cccccc;
+    margin-top: auto;
+    border-left: 3px solid #9c27b0;
+}
+
+.academic-card:hover {
+  transform: translateY(-5px);
+   box-shadow: 0 10px 25px rgba(156, 39, 176, 0.4);
+   border-color: #9c27b0;
+
+}
+
+.academic-card h3 {
+  color:white;
+  margin-bottom: 0.5rem;
+}
+
+.academic-card p {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.score {
+  font-weight: bold;
+  color: white !important;
+  font-size: 1.1rem;
+}
+.academic-card h3:hover{
+color:black;
+}
+.academic-card p:hover{
+color:black;
+}
+.score:hover{
+color:black !important;
+}
