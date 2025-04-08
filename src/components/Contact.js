@@ -56,7 +56,7 @@ const Contact = () => {
           </div>
 
           <div className="info-item">
-            <a href="+91 7904183289" target="_blank" rel="noopener noreferrer">        <FontAwesomeIcon icon={faPhone} className="contact-icon" />
+            <a href="https://www.google.com/url?sa=D&q=tel:7904183289&ust=1744136100000000&usg=AOvVaw2H9t_J6uqVWbJ0_mUYRPzc&hl=en-GB"  rel="noopener noreferrer">        <FontAwesomeIcon icon={faPhone} className="contact-icon" />
 +91 7904183289</a>
           </div>
 

@@ -145,7 +145,7 @@
 /* Font Awesome Icons (if not using the library) */
 .fas {
   display: inline-block;
-  width: 20px;
+  width: 10px;
   text-align: center;
   color: #bb86fc; /* Light violet for icons */
 }
@@ -155,9 +155,9 @@ a{
 }
 .social-icons a {
   margin: 0 10px;
-  color: ;/* Default color */
+  color: #bb86fc ;/* Default color */
 
 }
 .social-icons a:hover {
-  color: #0077b5; /* LinkedIn blue */
+  color: #bb86fc; /* LinkedIn blue */
 }

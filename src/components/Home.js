@@ -59,13 +59,13 @@ const Home = () => {
           </div>
             <div className="social-icons">
               <a href="https://www.linkedin.com/in/kishore-s-76b4a7274/" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                <FontAwesomeIcon icon={faLinkedin} size="1x" />
               </a>
               <a href="mailto:kishoresundar972@gmail.com">
-                <FontAwesomeIcon icon={faEnvelope} size="2x" />
+                <FontAwesomeIcon icon={faEnvelope} size="1x" />
               </a>
               <a href="https://github.com/KISHORE-5002" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faGithub} size="2x" />
+                <FontAwesomeIcon icon={faGithub} size="1x" />
               </a>
             </div>
         </div>
