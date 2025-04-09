@@ -64,7 +64,7 @@ const Certificates = () => {
           issuer: "Codecademy",
           date: "February 20, 2025",
           description: "Gained knowledge to store data in data base",
-          image: "/SQL.png",
+          image: "/SQl.png",
           details:"SQL is the relational databases. It allows for efficient data storage, retrieval, manipulation, and analysis through queries, joins, and transactions in database systems like MySQL and PostgreSQL"
         },
     {

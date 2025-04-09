@@ -10,7 +10,7 @@ const Projects = () => {
       title: 'NewNest',
       description: 'A system facilitating adoption processes for New Nest Child Adoption, ensuring the support. A digital platform streamlining child adoption processes for New Nest Child Adoption, ensuring transparency, legal compliance, and post-adoption support. Secure user portals, document verification, matching algorithms, and real-time communication tools for agencies, parents, and social workers.',
       technologies: ['HTML', 'CSS', 'JAVASCRIPT', 'MYSQL', 'REACT JS', 'SPRING BOOT'],
-      sourceCode: '#',
+      sourceCode: 'https://github.com/KISHORE-5002/NewNest.git',
       image: 'Newnest.png',
       imageAlt: 'NewNest Adoption Platform'
     },
@@ -26,7 +26,7 @@ const Projects = () => {
       title: 'An Intelligent Vehicle Breakdown Assistance management Service',
       description: 'The project aims to create a system for handling vehicle breakdowns. customer can report issues and share their GPS location for services like roadside assistance The system streamlines reporting for prompt customer assistance and effective breakdown management.',
       technologies: ['Python', 'HTML', 'CSS', 'JAVASCRIPT', 'MYSQL'],
-      sourceCode: '#',
+      sourceCode: 'https://github.com/KISHORE-5002/vehicle-breakdown-assistance-management-project',
       image: "vehicle-assistance.png",
       imageAlt: 'Vehicle Breakdown Assistance System'
     }

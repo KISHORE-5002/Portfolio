@@ -54,7 +54,7 @@ const Home = () => {
           </span>
           <div className="buttons">
             <a href="/Projects"><button className="primary-btn">View Work</button></a>
-            <button className="secondary-btn">Contact Me</button>
+            <a href="/Contact"><button className="secondary-btn">Contact Me</button></a>
 
           </div>
             <div className="social-icons">
