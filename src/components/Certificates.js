@@ -91,18 +91,18 @@ const Certificates = () => {
                id: 1,
                title: "CREATING LANDING PAGE FROM SCRATCH HTML,CSS,JS PROJECT",
                issuer: "UDEMY",
-               date: "MARCH 22, 2025",
-               description: "Successfully completed all course material in the Learn Spring Course",
-               details: "In Java, Spring is a popular framework for building scalable applications. It offers dependency injection, modular architecture, and simplifies enterprise-level application development.",
+               date: "NOVEMBER 5, 2024",
+               description: "Successfully completed all course material in the HTML,CSS,JS",
+               details: "Use HTML to define the structure of your page. Enhance the design with CSS, styling elements.Add interactivity with JavaScript, such as animations or form handling, to engage users.",
                image: "/CREATING LANDING PAGE FROM SCRATCH HTML,CSS,JS PROJECT.png"
              },
              {
                        id: 2,
                        title: "CSS, Bootstrap, JavaScript, PHP Full Stack Crash Course",
                        issuer: "UDEMY",
-                       date: "MARCH 22, 2025",
+                       date: "SEPTEMBER 22, 2024",
                        description: "Successfully completed all course material in the Learn Spring Course",
-                       details: "In Java, Spring is a popular framework for building scalable applications. It offers dependency injection, modular architecture, and simplifies enterprise-level application development.",
+                       details: "start with CSS to style web pages, Bootstrap to quickly create responsive designs, and JavaScript for interactivity and dynamic content. Then, dive into PHP for server-side programming and database integration",
                        image: "/CSS, Bootstrap, JavaScript, PHP Full Stack Crash Course.png"
                      }
 
