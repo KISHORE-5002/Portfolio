@@ -1,11 +1,19 @@
+
 .navbar {
   background-color: #333;
   color: white;
   padding: 1rem;
-  position: sticky;
-  top: -10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
-  margin-top:-60px;
+
+}
+
+/* Add this to prevent content from being hidden behind the navbar */
+body {
+  padding-top: 60px; /* Adjust this value based on your navbar height */
 }
 
 .navbar-container {
@@ -13,11 +21,11 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
+
 }
 
-.main {
-  margin: 0;
+.left {
   font-size: 1.5rem;
   COLOR:#8a2be2;
 }
@@ -40,6 +48,7 @@
   color: white;
   text-decoration: none;
   transition: color 0.3s;
+  padding-left:50px;
 }
 
 .nav-links li a:hover {
@@ -49,8 +58,7 @@
 /* Mobile styles */
 @media (max-width: 768px) {
   .menu-icon {
-    display: block;
-  }
+    display: block;  }
 
   .nav-links {
     position: fixed;
