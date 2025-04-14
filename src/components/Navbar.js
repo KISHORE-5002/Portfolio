@@ -70,7 +70,7 @@ const Navbar = () => {
           <li><a href="/Contact" onClick={() => setIsOpen(false)}>Contact</a></li>
           <li className="right">
             <a
-              href="https://drive.google.com/file/d/1xGlJ8yJeFEfJSB8O07TM_Wv85f-Tt01Z/view?usp=drive_link"
+              href="https://drive.google.com/file/d/13sxU9SV0S6HgTToSUpX4lddAbp0e1xrB/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
