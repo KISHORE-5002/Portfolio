@@ -19,7 +19,7 @@ const Projects = () => {
       description: 'Smart Table Food Ordering system aims to streamline dining experiences in restaurants. Customers can scan a QR code to access the menu, customize orders, and share preferences directly with the kitchen, enhancing efficiency and reducing errors while ensuring prompt service and effective order management.',
       technologies: ['Python', 'HTML', 'CSS', 'JAVASCRIPT', 'MYSQL'],
       sourceCode: 'https://github.com/KISHORE-5002/Smart-Table-Food-Order-In-Restaurant',
-      image: 'Smart Table Food Order in restaurant.png',
+      image: "Smart Table Food Order in restaurant.png",
       imageAlt: 'Smart Table Food Ordering System'
     },
     {
